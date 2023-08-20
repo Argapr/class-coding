@@ -424,10 +424,54 @@ header {
 }
 /* end lomba */
 
-
+/* start timeline */
 #time {
-    background-color: #0066ff;
+    width: 100%;
+    height: 70vh;
+    background-color: #212c3b;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+#time span {
+    color: #c5840b;
+    font-weight: 600;
+}
+#time h1 {
+    font-size: 30px;
+    color: #ffff;
+    margin: 10px;
+}
+
+#time .dsc {
+    font-weight: 300;
+    font-size: 17px;
+    color: #c4b4b4;
+    margin-bottom: 100px;
+}
+.progress-bar {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 95%;
+    height: 7px;
+    background-color: #1f112f;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  
+  .progress {
+    height: 100%;
+    width: 30%; /* Adjust the width to represent the progress (0% to 100%) */
+    background-color: #db930d;
+    border-radius: 10px;
+  }
+
+/* end timeline */
 
 /* start FAQ */
 #faq {
